@@ -9,3 +9,4 @@ source("run_analysis.R")
 ```
 
 Then a variable called "result" which contains the required result will be created. 
+See the comment in run_analysis.R for additional help.
