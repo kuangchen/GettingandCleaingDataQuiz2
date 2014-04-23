@@ -36,4 +36,3 @@ mean_std_data <- data[, sapply(label, contains_mean_std)]
 
 # Calculate the mean for each (subject, activity) pair
 result <- ddply(mean_std_data, .(subject_id, activity_label), numcolwise(mean))
-print(result)
